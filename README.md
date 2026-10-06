@@ -6,11 +6,16 @@ repositories, with your own Codex, Claude or GitHub Copilot account.
 Requires macOS 26 or later.
 
 ```sh
-brew install snksnksnk/goby/goby
+brew tap snksnksnk/goby
+brew install goby
 goby doctor
 goby login codex        # or: goby login claude  (plan token or API key)
 cd ~/code/my-app && goby
 ```
+
+Adding the tap is a one-time step; after it, `goby` works by name in
+`brew install`, `brew upgrade` and `brew uninstall`. `brew install
+snksnksnk/goby/goby` does both steps in one command.
 
 In the session, type `/` to see every command. `goby help` lists them too.
 
