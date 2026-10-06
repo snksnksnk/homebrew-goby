@@ -1,9 +1,9 @@
 class Goby < Formula
   desc "Local agent host and terminal workflow for your repositories"
   homepage "https://github.com/snksnksnk/goby-cli"
-  url "https://github.com/snksnksnk/goby-cli/releases/download/goby-v0.2.0-beta.2/goby-0.2.0-beta.2-universal.tar.gz"
-  version "0.2.0-beta.2"
-  sha256 "d62749b56bb3870e4bceb6852fa0294a2657e5c065f7cbf831aa949111a5f3b2"
+  url "https://github.com/snksnksnk/goby-cli/releases/download/goby-v0.2.0-beta.3/goby-0.2.0-beta.3-universal.tar.gz"
+  version "0.2.0-beta.3"
+  sha256 "f8e4d99a478c5eccf7c823b54477d1e1f5a4f4b4b362aba58a6d6c2d30282519"
   license "MIT"
   depends_on macos: :tahoe
 
