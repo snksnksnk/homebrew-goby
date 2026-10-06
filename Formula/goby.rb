@@ -5,7 +5,6 @@ class Goby < Formula
   version "0.2.0-beta.2"
   sha256 "d62749b56bb3870e4bceb6852fa0294a2657e5c065f7cbf831aa949111a5f3b2"
   license "MIT"
-  depends_on :macos
   depends_on macos: :tahoe
 
   def install
